@@ -7,7 +7,6 @@ import java.util.concurrent.*;
 
 public class MultiThreadClient {
     public static void main(String[] args) {
-        // Перевірка аргументів командного рядка
         if (args.length < 2) {
             System.out.println("Usage: java MultiThreadClient <host> <port>");
             return;
